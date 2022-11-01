@@ -68,6 +68,7 @@ i {
     /* background-color: orange; */
     display: flex;
     align-items: center;
+    border: 0.5px solid lightgray;
 }
 
 .formula_img {
@@ -89,7 +90,6 @@ i {
     border: none;
     border-left: 1px solid gray;
     outline: none;
-
 }
 
 /* *******grid starts******************* */
@@ -103,7 +103,7 @@ i {
 }
 
 .cell {
-    border: 0.5px solid gray;
+    border: 0.5px solid lightgray;
 
     height: 1.5rem;
     width: 5rem;
@@ -128,6 +128,7 @@ i {
     position: absolute;
     top: 0;
     left: 2rem;
+    /* border: 0.5px solid lightgray; */
 }
 
 .left_col {
